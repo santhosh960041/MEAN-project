@@ -1,0 +1,83 @@
+body {
+    background-color: #f1be8f;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    background: #f5b273e3;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-primary {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.lead {
+    font-size: 18px;
+    color: #6c757d;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.25);
+}
+
+.btn-primary {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #007bff;
+    transition: 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.text-muted {
+    font-size: 14px;
+}
+
+
+#background{
+    position:absolute;
+    z-index: 0;
+    margin-left: 1400px;
+    animation-name: spin;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    transition: all 100ms ease;
+    opacity: 0.8;
+}
+
+@keyframes spin{
+    0%{
+        margin-left: -500px;
+    }
+}
+
+#con{
+    position: relative;
+    z-index: 2;
+}

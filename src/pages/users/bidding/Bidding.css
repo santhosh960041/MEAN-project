@@ -1,0 +1,41 @@
+/* Bidding.css */
+.vehicle-details h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.vehicle-details p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.vehicle-images {
+    margin-top: 20px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+    left: 15px;
+}
+
+.carousel-control-next {
+    right: 15px;
+}

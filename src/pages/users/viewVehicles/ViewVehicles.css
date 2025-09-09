@@ -1,0 +1,68 @@
+#vehicle-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#page-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#filter-section {
+    margin-bottom: 20px;
+}
+
+.vehicle-card {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    min-height: 450px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.vehicle-card:hover {
+    transform: scale(1.05);
+}
+
+.vehicle-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vehicle-img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.vehicle-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.vehicle-description,
+.vehicle-price,
+.vehicle-owner,
+.vehicle-district {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;
+}
+
+#view-buys-link {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-success {
+    font-size: 1rem;
+    padding: 10px;
+}
