@@ -16,7 +16,7 @@ export default function Addvehicle() {
     useEffect(() => {
         const fetchDistricts = async () => {
             try {
-                const res = await axios.get(`http://localhost:3000/getdistrict`);
+                const res = await axios.get(`http://localhost:5000/getdistrict`);
                 setDistricts(res.data);
             } catch (error) {
                 console.error("Error fetching districts:", error);
